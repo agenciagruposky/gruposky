@@ -1,0 +1,42 @@
+# Lenguajes de programación (Python, C, Java, etc.)
+*.py
+*.py[cod]
+__pycache__/
+*.venv
+.venv/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+*.sh
+*.bash
+*.zsh
+*.c
+*.cpp
+*.h
+*.hpp
+*.java
+*.class
+*.rs
+*.go
+*.php
+*.rb
+
+# Archivos de respaldo y temporales
+*.bak
+*.tmp
+*~
+*.swp
+*.swo
+
+# Archivos del sistema operativo y logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Entornos y editores
+.vscode/
+.idea/
+.gemini/
+.claude/
