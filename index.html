@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grupo Sky</title>
+<link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="pre"><div><img class="logo-img big" src="assets/img/logo.png" alt="Grupo Sky"><div class="ld"><i></i></div></div></div>
+<div class="cur" id="cur"></div>
+<main class="hero" id="hero" aria-roledescription="carousel" aria-label="Destinos">
+  <div class="bgs" id="bgs"><div class="bg active" id="bgA"><img alt=""></div><div class="bg nx" id="bgB"><img alt=""></div></div>
+  <div class="shade"></div><div class="shade2"></div>
+  <header>
+    <div class="timer" id="timer"></div>
+    <img class="logo-img" src="assets/img/logo.png" alt="Grupo Sky">
+    <nav><a href="#" class="on" id="goProj">Proyectos</a><a href="#paquetes" id="goPack">Paquetes</a><a href="#servicios" id="goServ">Servicios</a><a href="#sobre" id="goAbout">Sobre</a></nav>
+  </header>
+  <section class="info" id="info" aria-live="polite">
+    <div class="place" id="place"></div>
+    <h1 id="title"></h1>
+    <p class="desc" id="desc"></p>
+    <div class="cta" id="cta"><span class="dot"></span><button class="btn">Explora más sobre <svg viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div>
+  </section>
+  <div class="dock" id="dock">
+    <div class="rail"><div class="track" id="track"></div></div>
+    <div class="meta">
+      <div class="ctl">
+        <button id="prev" aria-label="Anterior"><svg class="i" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></svg></button>
+        <button id="next" aria-label="Siguiente"><svg class="i" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+      </div>
+      <div class="bar"><i id="prog"></i></div>
+      <div class="num" id="num"><span></span></div>
+    </div>
+  </div>
+  <section class="about" id="about" aria-label="Sobre Grupo Sky">
+    <header class="ab-head ab-sticky">
+      <img class="logo-img" id="abLogo" src="assets/img/logo.png" alt="Grupo Sky">
+      <nav><a href="#" id="goHome" class="gohome" data-v="">Inicio</a><a href="#" data-v="">Proyectos</a><a href="#paquetes" data-v="paquetes">Paquetes</a><a href="#servicios" data-v="servicios">Servicios</a><a href="#sobre" class="on" data-v="sobre">Sobre</a></nav>
+    </header>
+    <div class="ab-more" id="abMore">
+      <div class="ab-mglow"></div>
+      <div class="amh rv2"><div class="place">Quiénes somos</div><h2 class="ab-h2">Grupo<br><em>Sky</em></h2></div>
+      <p class="amp rv2"><b>Grupo Sky</b> es una agencia especializada en <b>marketing digital, producción audiovisual y desarrollo de estrategias de comunicación</b> orientadas al <b>crecimiento de marcas y negocios</b>. Nace con el propósito de impulsar a las empresas a <b>fortalecer su presencia en el entorno digital</b>, <b>conectar de manera efectiva con su audiencia</b> y transformar su visibilidad en <b>oportunidades de negocio y resultados medibles</b>.</p>
+          <button class="ab-scroll" id="abScroll" aria-label="Ver el equipo"><span>El equipo</span><i></i></button>
+    </div>
+    <div class="ab-hero" id="abHero">
+      <div class="ab-glow"></div><div class="ab-bg" aria-hidden="true">SKY</div>
+      <div class="ab-intro">
+      <div class="place rv" style="--d:.45s">Sobre Grupo Sky</div>
+      <h1 class="rv" style="--d:.55s">El equipo</h1>
+      <p class="desc rv" style="--d:.7s">El equipo detrás de cada proyecto.</p>
+    </div>
+      <div class="group" id="team"></div>
+    <div class="edhint">Modo edición: añade la foto de cada miembro (mejor PNG sin fondo). Se guarda solo en este navegador. Pulsa E para salir.</div>
+    </div>
+  </section>
+  <section class="about pack" id="pack" aria-label="Paquetes">
+    <div class="ab-glow"></div><div class="ab-bg" aria-hidden="true">PAQUETES</div>
+    <header class="ab-head">
+      <img class="logo-img" id="pkLogo" src="assets/img/logo.png" alt="Grupo Sky">
+      <nav><a href="#" class="gohome" data-v="">Inicio</a><a href="#" data-v="">Proyectos</a><a href="#paquetes" class="on" data-v="paquetes">Paquetes</a><a href="#servicios" data-v="servicios">Servicios</a><a href="#sobre" data-v="sobre">Sobre</a></nav>
+    </header>
+    <div class="ab-intro">
+      <div class="place rv" style="--d:.45s">Paquetes</div>
+      <h1 class="rv" style="--d:.55s">Elige tu camino</h1>
+      <p class="desc rv" style="--d:.7s">Selecciona el tipo de proyecto para conocer cómo podemos ayudarte.</p>
+    </div>
+    <div class="choices" id="choices"></div>
+    <div class="edhint">Modo edición: añade la foto de una persona por espacio (mejor PNG sin fondo). Se guarda solo en este navegador. Pulsa E para salir.</div>
+  </section>
+  <section class="about pkgs" id="pkgs" aria-label="Paquetes">
+    <div class="ab-glow"></div><div class="ab-bg" id="pkBg" aria-hidden="true">EMPRESA</div>
+    <header class="ab-head">
+      <img class="logo-img" id="pgLogo" src="assets/img/logo.png" alt="Grupo Sky">
+      <nav><a href="#" class="gohome" data-v="">Inicio</a><a href="#" data-v="">Proyectos</a><a href="#paquetes" class="on" data-v="paquetes">Paquetes</a><a href="#servicios" data-v="servicios">Servicios</a><a href="#sobre" data-v="sobre">Sobre</a></nav>
+    </header>
+    <div class="ab-intro">
+      <a class="place rv" href="#paquetes" data-v="paquetes" style="--d:.4s">← Paquetes</a>
+      <h1 class="rv" id="pkTitle" style="--d:.5s">Empresa</h1>
+      <p class="desc rv" id="pkSub" style="--d:.65s"></p>
+    </div>
+    <div class="pkcols" id="pkcols"></div>
+  </section>
+  <section class="about svcs" id="svcs" aria-label="Servicios">
+    <div class="ab-glow"></div><div class="ab-bg" aria-hidden="true">SERVICIOS</div>
+    <header class="ab-head">
+      <img class="logo-img" id="svLogo" src="assets/img/logo.png" alt="Grupo Sky">
+      <nav><a href="#" class="gohome" data-v="">Inicio</a><a href="#" data-v="">Proyectos</a><a href="#paquetes" data-v="paquetes">Paquetes</a><a href="#servicios" class="on" data-v="servicios">Servicios</a><a href="#sobre" data-v="sobre">Sobre</a></nav>
+    </header>
+    <div class="ab-intro">
+      <div class="place rv" style="--d:.45s">Servicios</div>
+      <h1 class="rv" style="--d:.55s">Lo que hacemos</h1>
+      <p class="desc rv" style="--d:.7s">Soluciones creativas para marcas, empresas y artistas.</p>
+    </div>
+    <div class="cta svcta rv" style="--d:.85s"><span class="dot"></span><a class="btn" href="https://wa.me/message/Z4SDXKA5MMTBK1" target="_blank" rel="noopener noreferrer">Cotiza con nosotros <svg viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a></div>
+    <div class="svgrid" id="svgrid"></div>
+  </section>
+</main>
+<div class="wipe" id="wipe"></div>
+<script src="js/main.js" defer></script>
+</body>
+</html>
